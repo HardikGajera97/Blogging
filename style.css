@@ -22,6 +22,9 @@ a {
 .logo {
     color: var(--white);
 }
+.logo:hover{
+    color: gray
+}
 
 #Nav {
     position: fixed;
@@ -54,7 +57,7 @@ nav li a {
 
 /* this is homepage css */
 #Home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Blogging/img/bg.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/bg.jpg");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -106,7 +109,7 @@ nav li a {
 }
 
 .img {
-    height: 270px;
+    height: 310px;
 }
 
 
@@ -125,5 +128,51 @@ nav li a {
     /* border: 1px solid grey !important; */
     border-radius: .375rem;
     padding: 10px;
+
+}
+
+
+/* this is a contact us css */
+
+#Contact{
+    background-color: var(--black);
+    margin: 50px 0px;
+    opacity: .85;
+
+}
+.contact{
+    width: 60%;
+}
+.formcs{
+    display: flex;
+    flex-direction: column;
+    
+}
+.formcs>input{
+    border-radius: .375rem;
+    padding: 10px;
+}
+.formcs>textarea{
+    border-radius: .375rem;
+    padding: 10px;
+}
+.formcs>label{
+    margin: 5px;
+    color: var(--white);
+}
+.con{
+    margin: auto;
+    margin-top: 15px;
+    color: var(--white);
+}
+.btnsb{
+    background-color: var(--white);
+    border: 1px solid grey;
+    border-radius: .375rem;
+    padding: 8px;
+    width: 20%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
 
 }
