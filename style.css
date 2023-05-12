@@ -22,7 +22,8 @@ a {
 .logo {
     color: var(--white);
 }
-.logo:hover{
+
+.logo:hover {
     color: gray
 }
 
@@ -134,38 +135,45 @@ nav li a {
 
 /* this is a contact us css */
 
-#Contact{
+#Contact {
     background-color: var(--black);
     margin: 50px 0px;
     opacity: .85;
 
 }
-.contact{
+
+.contact {
     width: 60%;
 }
-.formcs{
+
+.formcs {
     display: flex;
     flex-direction: column;
-    
+
 }
-.formcs>input{
+
+.formcs>input {
     border-radius: .375rem;
     padding: 10px;
 }
-.formcs>textarea{
+
+.formcs>textarea {
     border-radius: .375rem;
     padding: 10px;
 }
-.formcs>label{
+
+.formcs>label {
     margin: 5px;
     color: var(--white);
 }
-.con{
+
+.con {
     margin: auto;
     margin-top: 15px;
     color: var(--white);
 }
-.btnsb{
+
+.btnsb {
     background-color: var(--white);
     border: 1px solid grey;
     border-radius: .375rem;
